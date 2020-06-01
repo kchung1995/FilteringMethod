@@ -8,8 +8,8 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 
-ratings = pd.read_csv('./food_dataset/ratings_partial.csv')
-foods = pd.read_csv('./food_dataset/foods.csv')
+ratings = pd.read_csv('./food_datatset_classmates/ratings.csv')
+foods = pd.read_csv('./food_datatset_classmates/foods.csv')
 
 user_food_ratings = ratings.pivot(
     index = 'userId',
