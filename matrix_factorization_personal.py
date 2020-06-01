@@ -52,7 +52,7 @@ def recommend_foods(svd_preds, user_id, ori_foods, ori_ratings, num_recommendati
 
     return user_history, recommendations
 
-already_rated, predictions = recommend_foods(svd_preds, 7, foods, ratings, 10)
+already_rated, predictions = recommend_foods(svd_preds, 77, foods, ratings, 10)
 
 pd.set_option('display.max_columns', None)
 print(already_rated.head(10))
