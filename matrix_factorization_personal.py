@@ -8,7 +8,7 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 
-ratings = pd.read_csv('./food_datatset_classmates/ratings.csv')
+ratings = pd.read_csv('./food_datatset_classmates/ratings_merged.csv')
 foods = pd.read_csv('./food_datatset_classmates/foods.csv')
 
 user_food_ratings = ratings.pivot(
@@ -52,7 +52,7 @@ def recommend_foods(svd_preds, user_id, ori_foods, ori_ratings, num_recommendati
 
     return user_history, recommendations
 
-already_rated, predictions = recommend_foods(svd_preds, 77, foods, ratings, 10)
+already_rated, predictions = recommend_foods(svd_preds, 197, foods, ratings, 10)
 
 pd.set_option('display.max_columns', None)
 print(already_rated.head(10))
