@@ -1,4 +1,4 @@
-# FilteringMethod
+# FoodRecommendation
 인하대학교 컴퓨터공학과 - 컴퓨터공학종합설계 과목에서 최종 발표한 과제입니다.
 
 블로그 https://lsjsj92.tistory.com/563?category=853217 에서 코드와 이론적 지식을 많이 참고하였으며,
