@@ -18,7 +18,7 @@ https://youtu.be/a7KBN_KzMcU
 종합설계 후기 등에 대한 블로그 글:   
 https://katfun.tistory.com/entry/컴퓨터공학-종합설계-캡스톤설계-최종-결과물   
    
-   
+.   
    
 Inha University, Dept. of Computer Science & Engineering.   
 This repository contains the result of our project at 'Capstone Design in CSE'.   
@@ -27,8 +27,7 @@ We learned and used a lot of theoretical knowledge and codes from: https://lsjsj
 and implemented a recommendation system based on food rating data we have collected on our own.   
 This project is based on Matrix Factorization recommendation system, which uses SVD (singular value decomposition).   
 Coded with Python using libraries such as Scikit-Learn, Surprise, etc.   
-   
-   
+      
 Introducing Video:   
 https://youtu.be/a7KBN_KzMcU (Korean)   
    
@@ -38,6 +37,6 @@ Initially we planneed to implement our project as a mobile application (Android)
 but because of time and technical issue, we could not finish it up in GUI.   
 A demonstration of our project is included at the end of the introducing video.   
    
-   
+.   
    
 To contact: kchung1995@gmail.com
